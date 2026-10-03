@@ -38,3 +38,37 @@ Variables: Use camelCase starting with a lowercase letter. Names should be short
 Constants: Use UPPER_SNAKE_CASE (all uppercase letters with words separated by underscores _). Constants are typically declared as final (e.g.,MAX_VALUE, PI).
 
 Packages: Always written in all-lowercase letters,usually following a reverse domain structure (e.g., com.example.myproject).
+
+**************************************************************************************************************
+
+int a = 10; //8
+int b = a-- + --a + a++ - a--;
+
+--a etle pre means a =--10 = 9 hoi tarat aj ek minise thai jai 
+++ a etle post means a=10++= 10 aj rai next ma jai tyare change thai
+
+a= 10 tya jova mate memory jovanu
+example: a=10;
+	 b=a-- + --a + a++ - a--;
+ 	    10 + 8 + 8  - 9
+
+*****************************************************************************************************************
+
+		int a = 10;
+		int b = 20;
+		
+		System.out.println(a+b);
+		System.out.println("Hello"+"java");
+		System.out.println("Hello"+a);
+		System.out.println("Hello"+a+b+"java");
+		System.out.println(a+b+"Hello");
+
+Output:   	30
+		Hellojava
+		Hello10
+		Hello1020java
+		30Hello
+
+
+
+
